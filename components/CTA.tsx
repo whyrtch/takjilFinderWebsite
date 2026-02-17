@@ -19,7 +19,7 @@ const CTA: React.FC<CTAProps> = ({ onGetStarted }) => {
           </p>
           
           <button 
-            onClick={onGetStarted}
+            onClick={() => window.open('https://takjil-finder-app.vercel.app/', '_blank')}
             className="bg-secondary dark:bg-primary text-white hover:bg-black dark:hover:bg-emerald-600 px-12 py-5 rounded-full font-bold text-xl transition-all inline-flex items-center gap-4 group shadow-xl shadow-secondary/10"
           >
             Get Started Now

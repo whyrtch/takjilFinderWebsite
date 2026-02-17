@@ -31,7 +31,7 @@ const Hero: React.FC<HeroProps> = ({ onGetStarted }) => {
           
           <div className="flex flex-col sm:flex-row gap-4 pt-4">
             <button 
-              onClick={onGetStarted}
+              onClick={() => window.open('https://takjil-finder-app.vercel.app/', '_blank')}
               className="bg-primary hover:bg-emerald-600 text-white px-8 py-4 rounded-full font-bold text-lg transition-all flex items-center justify-center gap-2 group shadow-xl shadow-primary/20"
             >
               Open App
