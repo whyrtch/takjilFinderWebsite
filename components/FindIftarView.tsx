@@ -11,16 +11,7 @@ interface Location {
   image: string;
 }
 
-const MOCK_LOCATIONS: Location[] = [
-  {
-    id: '1',
-    name: 'The Grand Mosque',
-    address: 'Downtown, Jakarta',
-    meals: '200+ meals daily',
-    distance: '0.8 km',
-    verified: true,
-    image: 'https://images.unsplash.com/photo-1542668595-fa9394e5b686?auto=format&fit=crop&q=80&w=600'
-  },
+const MOCK_LOCATIONS: Location[] = [  
   {
     id: '2',
     name: 'Al-Azhar Mosque',

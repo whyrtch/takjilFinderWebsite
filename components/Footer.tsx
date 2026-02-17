@@ -28,9 +28,9 @@ const Footer: React.FC = () => {
           <div className="space-y-6">
             <h4 className="text-white font-bold uppercase tracking-widest text-sm">Platform</h4>
             <ul className="space-y-4">
-              <li><a href="#" className="hover:text-primary transition-colors">Find Iftar</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Add Location</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Moderators</a></li>
+              <li><a href="https://takjil-finder-app.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Find Iftar</a></li>
+              <li><a href="https://takjil-finder-app.vercel.app/#/submit" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Add Location</a></li>
+              <li><a href="https://takjil-finder-app.vercel.app/#/admin" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Moderators</a></li>
             </ul>
           </div>
           <div className="space-y-6">

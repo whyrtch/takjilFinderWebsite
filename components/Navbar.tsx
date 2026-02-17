@@ -22,7 +22,7 @@ const Navbar: React.FC<NavbarProps> = ({ onNavigate, currentView }) => {
         
         <div className="hidden md:flex items-center gap-8">
           <button 
-            onClick={() => onNavigate('find')}
+            onClick={() => window.open('https://takjil-finder-app.vercel.app/', '_blank')}
             className={`font-medium transition-colors ${currentView === 'find' ? 'text-primary' : 'hover:text-primary'}`}
           >
             Find Iftar
@@ -32,7 +32,7 @@ const Navbar: React.FC<NavbarProps> = ({ onNavigate, currentView }) => {
         
         <div className="flex items-center gap-4">
           <button 
-            onClick={() => onNavigate('find')}
+            onClick={() => window.open('https://takjil-finder-app.vercel.app/', '_blank')}
             className="bg-primary hover:bg-emerald-600 text-white px-6 py-2.5 rounded-full font-semibold transition-all hover:shadow-lg hover:shadow-primary/30 active:scale-95"
           >
             Open App
