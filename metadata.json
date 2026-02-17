@@ -1,0 +1,8 @@
+
+{
+  "name": "TakjilFinder",
+  "description": "A community-driven platform to share and find free Takjil at mosques during the blessed month of Ramadan.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
