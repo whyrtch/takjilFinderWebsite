@@ -1,5 +1,6 @@
 
 import React from 'react';
+import {images} from "@/assets";
 
 interface HeroProps {
   onGetStarted: () => void;
@@ -45,7 +46,7 @@ const Hero: React.FC<HeroProps> = ({ onGetStarted }) => {
             <img 
               alt="Majestic Blue Mosque at twilight" 
               className="w-full h-full object-cover aspect-[4/3] transition-transform duration-700 hover:scale-105" 
-              src="../assets/img.png"
+              src={images.mosqueImage}
             />
             <div className="absolute bottom-6 left-6 right-6 p-6 bg-black/40 backdrop-blur-md rounded-2xl border border-white/20">
               <div className="flex items-center justify-between">
